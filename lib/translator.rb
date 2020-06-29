@@ -8,7 +8,7 @@ def load_library(libray_path)
     key[:english] = value[0]
     key[:japanese] = value[1]
   end
-  dictionary
+  p dictionary
 end
 
 def get_japanese_emoticon ('lib/emoticons.yml', emoticon)
