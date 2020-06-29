@@ -21,6 +21,7 @@ def get_japanese_emoticon (path, emoticon)
     if dict[key][:english] == emoticon
       result = dict[key][:japanese]
       break
+    end
   end
   result
 end
