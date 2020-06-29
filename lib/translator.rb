@@ -1,5 +1,5 @@
 # require modules here
-require "YAML"
+require "yaml"
 
 puts YAML
 
