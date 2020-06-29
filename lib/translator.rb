@@ -1,7 +1,7 @@
 # require modules here
 require "yaml"
 
-def load_library(libray_path)
+def load_library(library_path)
   # code goes here
   dictionary = YAML.load_file(library_path)
   dictionary.each do |key, value|
