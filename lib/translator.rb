@@ -1,7 +1,7 @@
 # require modules here
-require "emoticons"
+require "YAML"
 
-puts emoticons
+puts YAML
 
 def load_library
   # code goes here
