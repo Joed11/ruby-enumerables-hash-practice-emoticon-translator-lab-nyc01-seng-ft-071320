@@ -5,8 +5,8 @@ def load_library(library_path)
   # code goes here
   dictionary = YAML.load_file(library_path)
   dictionary.each do |key, value|
-    key[:english] = value[0]
-    key[:japanese] = value[1]
+    dictionary[key][:english] = value[0]
+    dictionary[key][:japanese] = value[1]
   end
   p dictionary
 end
