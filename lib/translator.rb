@@ -1,5 +1,5 @@
 # require modules here
-require "emoticons.yml"
+require "lib/emoticons.yml"
 
 puts emoticons.yml
 
