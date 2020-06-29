@@ -11,10 +11,10 @@ def load_library(libray_path)
   p dictionary
 end
 
-def get_japanese_emoticon ('lib/emoticons.yml', emoticon)
+def get_japanese_emoticon (lib/emoticons.yml, emoticon)
   # code goes here
 end
 
-def get_english_meaning ('lib/emoticons.yml', emoticon)
+def get_english_meaning (lib/emoticons.yml, emoticon)
   # code goes here
 end
