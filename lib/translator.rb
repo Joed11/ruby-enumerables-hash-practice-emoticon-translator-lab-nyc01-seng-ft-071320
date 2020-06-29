@@ -1,7 +1,7 @@
 # require modules here
 require "yaml"
 
-dict = YAML.load('emoticons.yml')
+dict = YAML.load(lib/emoticons.yml)
 
 puts dict
 
