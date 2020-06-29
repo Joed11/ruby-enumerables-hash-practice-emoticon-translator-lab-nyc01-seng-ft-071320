@@ -28,5 +28,13 @@ end
 
 def get_english_meaning (path, emoticon)
   # code goes here
+  result = "Sorry, that emoticon was not found"
   dict = load_library(path)
+  dict.each do |key,value|
+    if dict[key][:japanese] == emoticon
+      result = key
+      break
+    end
+  end
+  result
 end
