@@ -1,7 +1,9 @@
 # require modules here
 require "yaml"
 
-puts yaml
+dict = YAML.load(emoticons.yml)
+
+puts dict
 
 def load_library
   # code goes here
